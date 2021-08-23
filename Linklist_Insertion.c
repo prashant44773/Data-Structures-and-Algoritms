@@ -152,6 +152,9 @@ int main()
     // // Newhead = Insertion_Head(head,element);  //As the function returns New Head we are assigning it to old Head
     // head = Insertion_Head(head,element);  //As the function returns New Head we are assigning it to old Head
 
+    head = Insertion_Head(head,element);
+
+
     // head = Insert_Index(head,element,index);  // Insertion in between
 
     // Insertion at the end
