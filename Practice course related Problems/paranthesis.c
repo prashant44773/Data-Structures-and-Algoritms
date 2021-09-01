@@ -149,7 +149,7 @@ int main()
 {
     int a ;
 
-    char *exp = "9*4 + (0 +)- ((7)8+23+34)";
+    char *exp = "9*4 + (0 +)- ((7)";
 
     // a = Paranthesis(exp);
 
