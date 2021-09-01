@@ -148,7 +148,7 @@ int Parenthesis(char * exp)
 int main()
 {
 
-    char * exp =  "(2*3) + (23-9)";
+    char * exp =  "(2*3) + (23-9";
 
 
     int var = Parenthesis(exp);
@@ -156,15 +156,14 @@ int main()
     printf("The Value of Var is  %d\n",var);
 
 
-    if(Parenthesis(exp) == 0)
-    {
-        printf("\nThe Parenthesis Does Not Match\n\n");
-    }
-    // else if(Parenthesis(exp) == 1)
-    else
-    {
-        printf("\nThe Parenthesis Matched\n\n");
-    }
+    // if(Parenthesis(exp) == 1)
+    // {
+    //     printf("\nThe Parenthesis Balanced\n\n");
+    // }
+    // else
+    // {
+    //     printf("\nThe Parenthesis Not Balancsd\n\n");
+    // }
 
 
 
